@@ -15,28 +15,29 @@ int main()
     scanf("%f",&physics);
     total=math+c+english+nepali+physics;
     percentage=total/5;
-    printf("YOu got %f",percentage);
+    printf("\nYou got %f",percentage);
     if(percentage>=80)
     {
-        printf("Distinction");
+        printf("\nDistinction");
     }
     else if(percentage>=60 && percentage<80)
     {
 
-        printf("First division");
+        printf("\nFirst division");
     }
     else if(percentage>=45 && percentage<60)
     {
-        printf("Second division");
+        printf("\nSecond division");
 
     }
     else if(percentage>=32 && percentage<45)
     {
 
-        printf("third division");
+        printf("\nThird division");
     }
     else {
-        printf("failed");
+        printf("\nFailed");
     }
 
 }
+
